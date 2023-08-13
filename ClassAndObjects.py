@@ -5,7 +5,6 @@ class Vehicle:
     color = "red" 
     price = 60000.00
 
-
     def car_description(self):
      descript = "%s is %s. Its name is %s and it is a %s worth $%.2f " % (self.name,self.color,self.nature,self.type,self.price)
      return descript
